@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SR Computer Center Kundeshwar</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>SR Computer Center</h1>
+<p>Kundeshwar</p>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#faculty">Faculty</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+
+<a href="javascript:void(0)" onclick="openPopup()" class="admission">Admission Open</a>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<h2>Welcome To</h2>
+
+<h1>SR Computer Center</h1>
+
+<p>
+Makhanlal Chaturvedi National University Affiliated
+</p>
+
+<button class="hero-btn" onclick="openPopup()">
+Admission Now
+</button>
+
+</section>
+
+<section class="banner">
+
+<img src="images/banner.jpg" alt="Banner">
+
+</section>
+
+<section id="about" class="about">
+
+<h2>About SR Computer Center</h2>
+
+<p>
+SR Computer Center Kundeshwar एक Professional Training Institute है।
+यह संस्थान Makhanlal Chaturvedi National University से संबद्ध विभिन्न
+Computer एवं Skill Development Courses संचालित करता है।
+</p>
+
+<h3>हमारे यहाँ उपलब्ध Courses</h3>
+
+<ul>
+<li>CPCT Preparation</li>
+<li>Computer Course (DCA, PGDCA)</li>
+<li>Agriculture Course</li>
+<li>Engineering & Technology</li>
+<li>Beauty Course</li>
+<li>Fashion Design Course</li>
+<li>Fire & Safety Course</li>
+<li>Hardware & Networking</li>
+<li>Management Course</li>
+<li>Yoga Science Course</li>
+<li>Skill Development Course</li>
+</ul>
+
+</section>
+
+<section id="courses" class="courses">
+
+<h2>Our Courses</h2>
+
+<div class="course-container">
+
+<div class="course-card">
+<h3>💻 Computer Courses</h3>
+<p>DCA, PGDCA, ADCA, CPCT Preparation</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>🌾 Agriculture Course</h3>
+<p>Professional Agriculture Training</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>⚙ Engineering & Technology</h3>
+<p>Technical & Engineering Skills</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>💄 Beauty Course</h3>
+<p>Beauty & Wellness Training</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>👗 Fashion Design</h3>
+<p>Fashion Designing & Creative Skills</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>🔥 Fire & Safety</h3>
+<p>Industrial Safety Training</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>🖥 Hardware & Networking</h3>
+<p>Computer Hardware & Networking</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>📊 Management Course</h3>
+<p>Business & Management Skills</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>🧘 Yoga Science</h3>
+<p>Yoga & Health Education</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+<div class="course-card">
+<h3>⭐ Skill Development</h3>
+<p>Job Oriented Skill Courses</p>
+<button class="apply-btn" onclick="openPopup()">Admission Open</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- Admission Popup -->
+<div id="admissionPopup" class="popup">
+
+  <div class="popup-box">
+
+    <span class="close" onclick="closePopup()">&times;</span>
+
+    <h2>Admission Form</h2>
+
+    <input type="text" id="studentName" placeholder="Student Name">
+
+    <input type="text" id="fatherName" placeholder="Father Name">
+
+    <input type="tel" id="mobile" placeholder="Mobile Number">
+
+    <select id="course">
+      <option>Select Course</option>
+      <option>CPCT Preparation</option>
+      <option>Computer Course</option>
+      <option>Agriculture Course</option>
+      <option>Engineering & Technology</option>
+      <option>Beauty Course</option>
+      <option>Fashion Design</option>
+      <option>Fire & Safety</option>
+      <option>Hardware & Networking</option>
+      <option>Management Course</option>
+      <option>Yoga Science</option>
+      <option>Skill Development</option>
+    </select>
+
+    <textarea id="address" placeholder="Address"></textarea>
+
+    <button onclick="submitForm()">Submit</button>
+
+  </div>
+
+</div>
+
+<section id="faculty" class="faculty">
+
+<h2>Our Faculty</h2>
+
+<div class="faculty-container">
+
+<div class="faculty-card">
+<h3>Prof. Satendra Vishwakarma</h3>
+<p>Director</p>
+</div>
+
+<div class="faculty-card">
+<h3>Anil Vishwakarma</h3>
+<p>Director</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery-container">
+
+<img src="images/gallery1.jpg" alt="">
+<img src="images/gallery2.jpg" alt="">
+<img src="images/gallery3.jpg" alt="">
+<img src="images/gallery4.jpg" alt="">
+<img src="images/gallery5.jpg" alt="">
+<img src="images/gallery6.jpg" alt="">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>SR Computer Center, Kundeshwar</p>
+<p>📞 8889221018</p>
+<p>📞 8435183689</p>
+<h3>Send Us a Message</h3>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+<p>📍 Kundeshwar, Tikamgarh (M.P.)</p>
+</section>
+
+<footer>
+
+<h3>SR Computer Center Kundeshwar</h3>
+
+<p>Makhanlal Chaturvedi National University Affiliated</p>
+
+<p>📞 8889221018 | 8435183689</p>
+
+<p>📍 Kundeshwar, Tikamgarh (M.P.)</p>
+
+<p>© 2026 SR Computer Center. All Rights Reserved.</p>
+
+<p id="visitorCount"></p>
+
+</footer>
+
+<a href="https://wa.me/918889221018" class="whatsapp" target="_blank">
+💬
+</a>
+
+<a href="tel:8889221018" class="call-btn">
+📞
+</a>
+
+<script src="js/main.js"></script>
+
+<button onclick="topFunction()" id="topBtn">⬆</button>
+</body>
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+</html>
