@@ -7,8 +7,31 @@ function closePopup() {
 }
 
 function submitForm() {
-  alert("Thank You! Your admission request has been received.");
-  closePopup();
+
+emailjs.send("service_srcomputer","template_noffr94",{
+
+student_name: document.getElementById("studentName").value,
+
+father_name: document.getElementById("fatherName").value,
+
+mobile: document.getElementById("mobile").value,
+
+course: document.getElementById("course").value,
+
+address: document.getElementById("address").value
+
+}).then(function(){
+
+alert("Admission Request Successfully Sent!");
+
+closePopup();
+
+}).catch(function(error){
+
+alert("Error: " + error.text);
+
+});
+
 }
 
 window.onload = function(){
