@@ -1,3 +1,8 @@
+/* =========================
+   SR COMPUTER CENTER
+   PREMIUM CSS 2026
+========================= */
+
 *{
     margin:0;
     padding:0;
@@ -327,9 +332,55 @@ nav a:hover{
 
 #contactForm input,
 #contactForm textarea{
-    width:100
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:16px;
+}
+
+#contactForm button{
+    width:100%;
+    background:#0b2d62;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+#contactForm button:hover{
+    background:#ff9800;
+}
+
+/* FOOTER */
+
+footer{
+    background:#081c42;
+    color:white;
+    text-align:center;
+    padding:45px 20px;
+}
+
+footer h3{
+    color:#ffc107;
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:10px 0;
+    color:#ddd;
+    }
+
+/* =========================
+   PART 3 - PREMIUM EFFECTS
+========================= */
 
 /* POPUP */
+
 .popup{
     display:none;
     position:fixed;
