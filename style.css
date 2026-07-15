@@ -1,8 +1,3 @@
-/* =========================
-   SR COMPUTER CENTER
-   PREMIUM CSS 2026
-========================= */
-
 *{
     margin:0;
     padding:0;
@@ -334,12 +329,7 @@ nav a:hover{
 #contactForm textarea{
     width:100
 
-/* =========================
-   PART 3 - PREMIUM EFFECTS
-========================= */
-
 /* POPUP */
-
 .popup{
     display:none;
     position:fixed;
